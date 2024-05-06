@@ -24,7 +24,7 @@ function HeroSection() {
         >Gourav Chatterjee</h1>
         <p
           className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto"
-        >I am a Full Stack Software Developer with 5 years of experience. I'm currently working as a Software Engineer at EY. I'm working with MERN Stack, Next.js and a little bit of Blockchain.</p>
+        >I am a Full Stack Software Developer with 5 years of experience. I am currently working as a Software Engineer at EY. I am working with MERN Stack, Next.js and a little bit of Blockchain.</p>
         <div className="mt-5">
           <Link href={"https://www.linkedin.com/in/gourav-chatterjee-codewithbogo/"} target="_blank">
             <Button className="rounded-3xl">
