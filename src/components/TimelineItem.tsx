@@ -1,3 +1,4 @@
+'use client'
 interface TimelineItemProps {
     title: string;
     description: string;
@@ -7,9 +8,9 @@ interface TimelineItemProps {
 }
 
 const TimelineItem = (timeLineObj: TimelineItemProps) => {
-    const justify = timeLineObj.reverse ? 'start' : 'end';
+    const justify = timeLineObj.reverse ? 'justify-start' : 'justify-end';
     const padding = timeLineObj.reverse ? 'sm:pr-8' : 'sm:pl-8';
-    const firstClass = `flex justify-${justify} w-full mx-auto items-center`;
+    const firstClass = `flex ${justify} w-full mx-auto items-center`;
     const secondClass = `w-full sm:w-1/2 ${padding}`;
     return (
         <div className="mt-6 sm:mt-0 sm:mb-12">
