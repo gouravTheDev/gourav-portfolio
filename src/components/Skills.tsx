@@ -20,7 +20,7 @@ const skills = [
 
 function Skills() {
     return (
-        <div className="px-20 bg-black mx-auto">
+        <div className="px-20 bg-black mx-auto" id="skills">
             <div className="pt-7">
                 <div className="text-center">
                     <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">Skills</h2>

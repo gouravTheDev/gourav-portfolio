@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
+import Contact from "@/components/Contact";
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       <WorkExperience />
       <Skills />
       <Education />
-
+      <Contact />
       <Footer />
     </main>
   );
